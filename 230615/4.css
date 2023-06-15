@@ -1,0 +1,151 @@
+*{
+    font-family: 'Nanum Gothic', 'Malgun Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#page{
+    width: 1000px;
+    margin: 0 auto;
+}
+header, nav,footer{
+    border-collapse: collapse;
+    width: 1000px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    border: 1px solid black;
+    margin-top: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+main{
+    display: flex;
+    background-color: #ddd;
+    width: 1000px;
+    height: 800px;
+}
+aside{
+    background-color: gray;
+    width: 100px;
+    height: 200px;
+}
+section{
+    background-color: white;
+    width: 800px;
+    height: 800px;
+}
+#page>header>h1{
+    margin-left: 10px;
+    letter-spacing: 24px;
+}
+#search input{
+    width: 302px;
+    height: 28px;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 1px;
+}
+#search {
+    border: 1px solid lightgray;
+    width: 350px;
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+} 
+#search input:focus{
+    outline: none;
+}   
+#search i:hover{
+    cursor: pointer;
+}
+.fa-magnifying-glass{
+    margin-right: 10px;
+}
+nav {
+    background-color: black;
+    color: white;
+}
+nav>ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+nav>ul>li{
+    list-style: none;
+}
+nav>ul>li>a {
+    text-decoration-line: none;
+    width: 120px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+nav>ul>li>a:hover{
+    background-color: darkslategrey;
+    color: darkgray;
+    border-bottom: 7px solid rgb(10, 139, 156);
+}
+form input,form>button{
+    width: 570px;
+    height: 38px;
+}
+form> div{
+    margin: 24px 10px;
+}
+nav> ul{
+    margin-top: 15px;
+}
+form>button{
+    margin: 0 10px;
+}
+form>.password>label{
+    margin-bottom: 8px;
+}
+#slider {
+    width: 780px;
+    margin-bottom: 15px;
+}
+section>div {
+    margin: 0 10px;
+}
+section>div>div {
+    display: flex;
+    justify-content: center;
+}
+section>div>div>button{
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 200px;
+    height: 36px;
+    margin: 0 5px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+section>div>div>button:hover{
+    background-color: blue;
+    color: white;
+    transition: all 0.4s ease-out;
+}
+#menu_icon > i{
+    margin: auto 5px;
+    cursor: pointer;
+}
+#menu_icon {
+    margin-right: 10px;
+}
